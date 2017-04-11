@@ -10,6 +10,6 @@ Update the first store (@store1) instance in the database. (Change its name or s
 =end
 
 # Your code goes here ...
-@store1 = Store.find_by(id: 1)
-@store2 = Store.find_by(id: 2)
-@store1.name = "BurnabyWOW"
+pp @store1 = Store.find_by(id: 1)
+pp @store2 = Store.find_by(id: 2)
+pp @store1.name = "BurnabyWOW"
