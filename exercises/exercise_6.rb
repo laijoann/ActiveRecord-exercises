@@ -13,11 +13,11 @@ Go ahead and create some more employees using the create method. You can do this
 =end
 
 # Your code goes here ...
-@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Amy", last_name: "Smith", hourly_rate: 80)
-@store2.employees.create(first_name: "Sad", last_name: "Life", hourly_rate: 10)
-@store2.employees.create(first_name: "Saddish", last_name: "Life", hourly_rate: 20)
-@store2.employees.create(first_name: "Winning", last_name: "Life", hourly_rate: 100)
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 40)
+@store1.employees.create(first_name: "Amy", last_name: "Smith", hourly_rate: 50)
+@store2.employees.create(first_name: "Sad", last_name: "Life", hourly_rate: 60)
+@store2.employees.create(first_name: "Saddish", last_name: "Life", hourly_rate: 70)
+@store2.employees.create(first_name: "Winning", last_name: "Life", hourly_rate: 80)
 
 pp @store1.employees.all
 pp @store2.employees.all

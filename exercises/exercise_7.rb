@@ -9,4 +9,7 @@ require_relative './exercise_6'
 puts "Exercise 7"
 puts "----------"
 
-# Your code goes here ...
+puts 'Please enter store name:'
+input = gets.strip
+@store1.employees.create(first_name: input)
+puts @store1.errors.messages
