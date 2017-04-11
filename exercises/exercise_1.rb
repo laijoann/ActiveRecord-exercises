@@ -11,8 +11,8 @@ Output (puts) the number of the stores using ActiveRecord's count method, to ens
 =end
 
 # Your code goes below here ...
-Burnaby = Store.create(id: 1, name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
-Richmond = Store.create(id: 2, name: "Richmond", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
-Gastwon = Store.create(id: 3, name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
+Store.create(id: 1, name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
+Store.create(id: 2, name: "Richmond", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
+Store.create(id: 3, name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
 puts Store.count(:all)
